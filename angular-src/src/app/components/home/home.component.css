@@ -1,0 +1,27 @@
+.container{
+    height: 25rem;
+    padding-top: 8rem;
+    color: white;
+    font-size: 2rem;
+    background: gray;
+}
+h1{
+    font-size: 2.5rem;
+}
+
+a{
+    height: 3rem;
+    width: 8rem;
+    background: gainsboro;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+a:hover{
+    border: 1px solid gainsboro;
+    color: white;
+}
+
+.row{
+    margin-top: 10rem;
+   text-align: center;
+}

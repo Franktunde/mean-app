@@ -1,13 +1,31 @@
-<nav class="navbar navbar-defualt  bg-dark">
-    <div class="container" >
-        <div class="navbar-header" >
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" ></button>
-            <span  class="sr-only">Toggle Navigation</span>
-            <span  class="sr-bar"></span>
-            <span  class="sr-bar"></span>
-            <span  class="sr-bar"></span>
-        </div>
-        
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li  class="nav-item">
+          <a [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" [routerLink] = "['/']" class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+      </ul>
+      <div class="d-flex justify-content-between">
+        <li class="list-unstyled nav-item mb-lg-0" >
+          <a  [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" [routerLink] = "['/login']" class="nav-link active" href="#">Login</a>
+        </li>
+        <li  class="list-unstyled nav-item "  >
+          <a [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"  [routerLink] = "['/register']" class="nav-link active " href="#">Register</a>
+        </li>
+      </div>
     </div>
-
+  </div>
 </nav>
