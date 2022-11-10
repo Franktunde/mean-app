@@ -12,7 +12,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 import { ValidateService } from './services/validate.service';
-import {FlashMessagesModule} from 'flash-messages-angular'
+// import {FlashMessagesModule} from 'flash-messages-angular'
 
 
 const appRoutes: Routes = [
@@ -40,7 +40,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     FormsModule,
     ReactiveFormsModule,
-    FlashMessagesModule.forRoot(),
+    // FlashMessagesModule.forRoot(),
   ],
   providers: [ValidateService],
   bootstrap: [AppComponent]
