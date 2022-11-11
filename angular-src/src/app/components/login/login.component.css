@@ -1,0 +1,27 @@
+.button{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    height: 3rem;
+}
+input{
+    width: 50vw;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+
+.form-control{
+    height: 3rem;
+}
+h2{
+    margin-top: 5%;
+    margin-bottom: .8rem;
+    margin-left: 15%;
+}
+label{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+form{
+    margin-left: 15%;
+}
