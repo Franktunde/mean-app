@@ -2,21 +2,12 @@ Lappeenrannan teknillinen yliopisto
 School of Business and Management
 
 
-
-
-
-
 Sofware Development Skills
 
 <Frank Olowoniyi>, <Insert student number here>
 
 
 LEARNING DIARY, <SOFTWARE DEVELOPMENT SKILLS: FULLSTACK 2022-23> MODULE
-
-
-
-
-
 
 
 
@@ -53,6 +44,15 @@ EXAMPLE STYLE 3
 12.11.2022
 
 Freeform.
+
+How to run project:
+#clone this repository with git clone then the preferred cloning method( http/ssh)
+#open with vscode.
+#open vscode terminal.
+#run npm install .. to install and nodemodule packages.
+#run ng build in the angular-src file to build project.
+#project can be seen in the angular-src/public folder.
+#open the index.html file in the angular-src/public folder.
 
 Something else, but reasonable. You must document what you have done, learned and when this have happened.
 I also learnt how to used postman to test my backend urls on localhost
