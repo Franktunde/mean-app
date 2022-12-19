@@ -54,6 +54,9 @@ How to run project:
 #project can be seen in the angular-src/public folder.
 #open the index.html file in the angular-src/public folder.
 
+live video link ---- https://drive.google.com/file/d/1lKvt14ttHFyVu1qQwDRG3cnLurVS9jSI/view?usp=share_link
+This video link shows that the project works fine as intended.
+
 Something else, but reasonable. You must document what you have done, learned and when this have happened.
 I also learnt how to used postman to test my backend urls on localhost
 
